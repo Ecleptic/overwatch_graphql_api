@@ -44,6 +44,11 @@ server.listen().then(({ url }) => {
 
 function getOwHeroes() {
 	return heroes
+
+	// TODO:
+	// ? Get the data from playoverwatch.
+	// * https://playoverwatch.com/en-us/heroes
+	// Array.from(document.querySelectorAll('[data-hero-id]')).map(a=>a.dataset.heroId)
 }
 
 function getOwMaps() {
